@@ -7,9 +7,11 @@ pip install -r requirements.txt
 
 2.crear la base de datos ejecutando el sql que se encuentra en votaciones/db
 
-3.para correr el programa desde .../codigo/votaciones en la terminal se usa uvicorn main:app --reload   
+3.agregar en .../codigo/votacion/.env el usuario contraseña y puerto para la base de datos
 
-4.abrir http://127.0.0.1:8000/docs
+4.para correr el programa desde .../codigo/votaciones en la terminal se usa uvicorn main:app --reload   
+
+5.abrir http://127.0.0.1:8000/docs
 
 Ejemplos
 Post votantes
